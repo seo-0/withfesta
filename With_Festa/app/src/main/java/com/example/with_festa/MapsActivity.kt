@@ -45,4 +45,5 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         mMap.addMarker(MarkerOptions().position(sydney).title("Marker in Sydney"))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney))
     }
+    val justTest = "깃허브 커밋용 테스트 변경"
 }
